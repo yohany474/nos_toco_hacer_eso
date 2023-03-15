@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 206, 214);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #000;
+}
+.notify{
+    height: 90vh;
+    width: 90%;
+    background-color: lightslategray;
+}

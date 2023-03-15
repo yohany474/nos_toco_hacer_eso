@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+body{
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: rgb(255, 206, 214);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+.nl{
+    flex: 1;
+    background-color: lightslategray;
+}

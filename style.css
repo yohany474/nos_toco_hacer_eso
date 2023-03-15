@@ -1,0 +1,95 @@
+*{
+    background-color: lightsalmon;
+}
+
+.content {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .modal-content {
+    background-color: gray;
+    margin: 15% auto;
+    padding: 20px;
+    width: 40%;
+    border: solid 1px black;
+  }
+  .modal-content>h2 {
+    background-color: gray;
+  }
+
+  .text_content,label,input {
+    background-color: gray;
+    border: none;
+  }
+  
+  .close {
+    background-color: gray;
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: gray;
+  }
+
+  .btn_content{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn_1 {
+    height: 2rem;
+    width: 5rem;
+    background-color: green;
+    color: black;
+  }
+  .btn_0 {
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color: black;
+  }
+  
+  /* Estilos para el botón de solicitar */
+  .btn-solicitar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+a{
+  text-decoration: none ;
+
+  background-color: green;
+  color: #000;
+  background-color: none;
+}
